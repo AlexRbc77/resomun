@@ -1,0 +1,284 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="786" height="468" view_box="0 0 786 468"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Sat, 28 Mar 2020 08:39:37</desc>
+
+<rect id="frame" x="0" y="0" width="786" height="468" fill="#ffffbf" stroke="none" stroke-width="0"/>
+
+<!-- Association represents -->
+<line x1="226" y1="315" x2="226" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="232.0" y="279" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<line x1="370" y1="189" x2="226" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="290" y="206.0" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<line x1="370" y1="72" x2="226" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="324.441885664" y="125" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<g id="association-represents">
+	<path d="M 260 161 a 14 14 90 0 1 14 14 V 188 h -96 V 175 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 274 188.0 v 15 a 14 14 90 0 1 -14 14 H 192 a 14 14 90 0 1 -14 -14 V 188.0 H 96" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="178" y="161" width="96" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="178" y1="188" x2="274" y2="188" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="187" y="181.3" fill="#000000" font-family="Arial Black" font-size="13">represents</text>
+</g>
+
+<!-- Association reso_contains -->
+<line x1="528" y1="315" x2="528" y2="414" stroke="#66bd63" stroke-width="1.5"/>
+<text x="534.0" y="368" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<line x1="705" y1="414" x2="528" y2="414" stroke="#66bd63" stroke-width="1.5"/>
+<text x="616" y="431.0" fill="#d73027" font-family="Arial" font-size="12">1,N</text>
+<g id="association-reso_contains">
+	<path d="M 573 386 a 14 14 90 0 1 14 14 V 413 h -118 V 400 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 587 413.0 v 15 a 14 14 90 0 1 -14 14 H 483 a 14 14 90 0 1 -14 -14 V 413.0 H 118" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="469" y="386" width="118" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="469" y1="413" x2="587" y2="413" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="478" y="406.3" fill="#000000" font-family="Arial Black" font-size="13">reso_contains</text>
+</g>
+
+<!-- Association participated_in -->
+<line x1="72" y1="315" x2="72" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="78.0" y="234" fill="#d73027" font-family="Arial" font-size="12">1,N</text>
+<line x1="72" y1="72" x2="72" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="78.0" y="152" fill="#d73027" font-family="Arial" font-size="12">1,N</text>
+<line x1="226" y1="315" x2="72" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="191.708833177" y="279" fill="#d73027" font-family="Arial" font-size="12">1,N</text>
+<line x1="370" y1="72" x2="72" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="290" y="87.4966615326" fill="#d73027" font-family="Arial" font-size="12">0,N</text>
+<g id="association-participated_in">
+	<path d="M 121 161 a 14 14 90 0 1 14 14 V 188 h -126 V 175 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 135 188.0 v 15 a 14 14 90 0 1 -14 14 H 23 a 14 14 90 0 1 -14 -14 V 188.0 H 126" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="9" y="161" width="126" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="9" y1="188" x2="135" y2="188" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="18" y="181.3" fill="#000000" font-family="Arial Black" font-size="13">participated_in</text>
+</g>
+
+<!-- Association signed -->
+<line x1="226" y1="315" x2="370" y2="315" stroke="#66bd63" stroke-width="1.5"/>
+<text x="290" y="332.0" fill="#d73027" font-family="Arial" font-size="12">0,N</text>
+<line x1="528" y1="315" x2="370" y2="315" stroke="#66bd63" stroke-width="1.5"/>
+<text x="445" y="332.0" fill="#d73027" font-family="Arial" font-size="12">0,N</text>
+<g id="association-signed">
+	<path d="M 389 287 a 14 14 90 0 1 14 14 V 314 h -66 V 301 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 403 314.0 v 15 a 14 14 90 0 1 -14 14 H 351 a 14 14 90 0 1 -14 -14 V 314.0 H 66" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="337" y="287" width="66" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="337" y1="314" x2="403" y2="314" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="346" y="307.3" fill="#000000" font-family="Arial Black" font-size="13">signed</text>
+</g>
+
+<!-- Association committee_of -->
+<line x1="370" y1="72" x2="226" y2="72" stroke="#66bd63" stroke-width="1.5"/>
+<text x="290" y="63.0" fill="#d73027" font-family="Arial" font-size="12">1,N</text>
+<line x1="72" y1="72" x2="226" y2="72" stroke="#66bd63" stroke-width="1.5"/>
+<text x="141" y="89.0" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<g id="association-committee_of">
+	<path d="M 270 44 a 14 14 90 0 1 14 14 V 71 h -116 V 58 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 284 71.0 v 15 a 14 14 90 0 1 -14 14 H 182 a 14 14 90 0 1 -14 -14 V 71.0 H 116" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="168" y="44" width="116" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="168" y1="71" x2="284" y2="71" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="177" y="64.3" fill="#000000" font-family="Arial Black" font-size="13">committee_of</text>
+</g>
+
+<!-- Association main_sub -->
+<line x1="226" y1="315" x2="528" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="290" y="303.879861093" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<line x1="370" y1="72" x2="528" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="401.331069256" y="125" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<line x1="528" y1="315" x2="528" y2="189" stroke="#66bd63" stroke-width="1.5"/>
+<text x="534.0" y="270" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<g id="association-main_sub">
+	<path d="M 557 161 a 14 14 90 0 1 14 14 V 188 h -86 V 175 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 571 188.0 v 15 a 14 14 90 0 1 -14 14 H 499 a 14 14 90 0 1 -14 -14 V 188.0 H 86" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="485" y="161" width="86" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="485" y1="188" x2="571" y2="188" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="494" y="181.3" fill="#000000" font-family="Arial Black" font-size="13">main_sub</text>
+</g>
+
+<!-- Association has_role -->
+<line x1="226" y1="315" x2="226" y2="414" stroke="#66bd63" stroke-width="1.5"/>
+<text x="232.0" y="359" fill="#d73027" font-family="Arial" font-size="12">1,N</text>
+<line x1="370" y1="414" x2="226" y2="414" stroke="#66bd63" stroke-width="1.5"/>
+<text x="307" y="431.0" fill="#d73027" font-family="Arial" font-size="12">1,N</text>
+<g id="association-has_role">
+	<path d="M 251 386 a 14 14 90 0 1 14 14 V 413 h -78 V 400 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 265 413.0 v 15 a 14 14 90 0 1 -14 14 H 201 a 14 14 90 0 1 -14 -14 V 413.0 H 78" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="187" y="386" width="78" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="187" y1="413" x2="265" y2="413" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="196" y="406.3" fill="#000000" font-family="Arial Black" font-size="13">has_role</text>
+</g>
+
+<!-- Association Sclause_contains -->
+<line x1="705" y1="189" x2="705" y2="72" stroke="#66bd63" stroke-width="1.5"/>
+<text x="711.0" y="135" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<line x1="528" y1="72" x2="705" y2="72" stroke="#66bd63" stroke-width="1.5"/>
+<text x="606" y="89.0" fill="#d73027" font-family="Arial" font-size="12">0,N</text>
+<g id="association-Sclause_contains">
+	<path d="M 763 44 a 14 14 90 0 1 14 14 V 71 h -144 V 58 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 777 71.0 v 15 a 14 14 90 0 1 -14 14 H 647 a 14 14 90 0 1 -14 -14 V 71.0 H 144" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="633" y="44" width="144" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="633" y1="71" x2="777" y2="71" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="642" y="64.3" fill="#000000" font-family="Arial Black" font-size="13">Sclause_contains</text>
+</g>
+
+<!-- Association clause_contains -->
+<line x1="705" y1="414" x2="705" y2="315" stroke="#66bd63" stroke-width="1.5"/>
+<text x="711.0" y="360" fill="#d73027" font-family="Arial" font-size="12">1,1</text>
+<line x1="705" y1="189" x2="705" y2="315" stroke="#66bd63" stroke-width="1.5"/>
+<text x="711.0" y="251" fill="#d73027" font-family="Arial" font-size="12">0,N</text>
+<g id="association-clause_contains">
+	<path d="M 758 287 a 14 14 90 0 1 14 14 V 314 h -134 V 301 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 772 314.0 v 15 a 14 14 90 0 1 -14 14 H 652 a 14 14 90 0 1 -14 -14 V 314.0 H 134" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="638" y="287" width="134" height="56" fill="none" rx="14" stroke="#66bd63" stroke-width="3"/>
+	<line x1="638" y1="314" x2="772" y2="314" stroke="#66bd63" stroke-width="1.5"/>
+	<text x="647" y="307.3" fill="#000000" font-family="Arial Black" font-size="13">clause_contains</text>
+</g>
+
+<!-- Entity CONFERENCE -->
+<g id="entity-CONFERENCE">
+	<g id="frame-CONFERENCE">
+		<rect x="9" y="9" width="126" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="9" y="37.0" width="126" height="98" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="9" y="9" width="126" height="126" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="9" y1="37" x2="135" y2="37" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="21" y="29.3" fill="#000000" font-family="Arial Black" font-size="13">CONFERENCE</text>
+	<text x="17" y="53.2" fill="#000000" font-family="Arial" font-size="14">conf_id</text>
+	<line x1="17" y1="56" x2="65" y2="56" stroke="#000000" stroke-width="1.2"/>
+	<text x="17" y="71.2" fill="#000000" font-family="Arial" font-size="14">conf_title</text>
+	<text x="17" y="89.2" fill="#000000" font-family="Arial" font-size="14">conf_place</text>
+	<text x="17" y="107.2" fill="#000000" font-family="Arial" font-size="14">conf_begin_date</text>
+	<text x="17" y="125.2" fill="#000000" font-family="Arial" font-size="14">conf_end_date</text>
+</g>
+
+<!-- Entity PARTICIPANT -->
+<g id="entity-PARTICIPANT">
+	<g id="frame-PARTICIPANT">
+		<rect x="168" y="288" width="116" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="168" y="316.0" width="116" height="26" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="168" y="288" width="116" height="54" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="168" y1="316" x2="284" y2="316" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="176" y="308.3" fill="#000000" font-family="Arial Black" font-size="13">PARTICIPANT</text>
+	<text x="176" y="332.2" fill="#000000" font-family="Arial" font-size="14">part_id</text>
+	<line x1="176" y1="335" x2="222" y2="335" stroke="#000000" stroke-width="1.2"/>
+</g>
+
+<!-- Entity CLAUSE -->
+<g id="entity-CLAUSE">
+	<g id="frame-CLAUSE">
+		<rect x="643" y="369" width="124" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="643" y="397.0" width="124" height="62" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="643" y="369" width="124" height="90" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="643" y1="397" x2="767" y2="397" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="675" y="389.3" fill="#000000" font-family="Arial Black" font-size="13">CLAUSE</text>
+	<text x="651" y="413.2" fill="#000000" font-family="Arial" font-size="14">clause_id</text>
+	<line x1="651" y1="416" x2="714" y2="416" stroke="#000000" stroke-width="1.2"/>
+	<text x="651" y="431.2" fill="#000000" font-family="Arial" font-size="14">reso_id</text>
+	<text x="651" y="449.2" fill="#000000" font-family="Arial" font-size="14">clause_contents</text>
+</g>
+
+<!-- Entity DELEGATION -->
+<g id="entity-DELEGATION">
+	<g id="frame-DELEGATION">
+		<rect x="314" y="153" width="112" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="314" y="181.0" width="112" height="44" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="314" y="153" width="112" height="72" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="314" y1="181" x2="426" y2="181" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="322" y="173.3" fill="#000000" font-family="Arial Black" font-size="13">DELEGATION</text>
+	<text x="322" y="197.2" fill="#000000" font-family="Arial" font-size="14">del_id</text>
+	<line x1="322" y1="200" x2="362" y2="200" stroke="#000000" stroke-width="1.2"/>
+	<text x="322" y="215.2" fill="#000000" font-family="Arial" font-size="14">country</text>
+</g>
+
+<!-- Entity ROLE -->
+<g id="entity-ROLE">
+	<g id="frame-ROLE">
+		<rect x="334" y="378" width="72" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="334" y="406.0" width="72" height="44" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="334" y="378" width="72" height="72" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="334" y1="406" x2="406" y2="406" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="350" y="398.3" fill="#000000" font-family="Arial Black" font-size="13">ROLE</text>
+	<text x="342" y="422.2" fill="#000000" font-family="Arial" font-size="14">role_id</text>
+	<line x1="342" y1="425" x2="387" y2="425" stroke="#000000" stroke-width="1.2"/>
+	<text x="342" y="440.2" fill="#000000" font-family="Arial" font-size="14">role_title</text>
+</g>
+
+<!-- Entity USER -->
+<g id="entity-USER">
+	<g id="frame-USER">
+		<rect x="32" y="243" width="80" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="32" y="271.0" width="80" height="116" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="32" y="243" width="80" height="144" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="32" y1="271" x2="112" y2="271" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="51" y="263.3" fill="#000000" font-family="Arial Black" font-size="13">USER</text>
+	<text x="40" y="287.2" fill="#000000" font-family="Arial" font-size="14">user_id</text>
+	<line x1="40" y1="290" x2="89" y2="290" stroke="#000000" stroke-width="1.2"/>
+	<text x="40" y="305.2" fill="#000000" font-family="Arial" font-size="14">firstname</text>
+	<text x="40" y="323.2" fill="#000000" font-family="Arial" font-size="14">lastname</text>
+	<text x="40" y="341.2" fill="#000000" font-family="Arial" font-size="14">age</text>
+	<text x="40" y="359.2" fill="#000000" font-family="Arial" font-size="14">email</text>
+	<text x="40" y="377.2" fill="#000000" font-family="Arial" font-size="14">password</text>
+</g>
+
+<!-- Entity COMMITTEE -->
+<g id="entity-COMMITTEE">
+	<g id="frame-COMMITTEE">
+		<rect x="317" y="36" width="106" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="317" y="64.0" width="106" height="44" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="317" y="36" width="106" height="72" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="317" y1="64" x2="423" y2="64" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="325" y="56.3" fill="#000000" font-family="Arial Black" font-size="13">COMMITTEE</text>
+	<text x="325" y="80.2" fill="#000000" font-family="Arial" font-size="14">commit_id</text>
+	<line x1="325" y1="83" x2="393" y2="83" stroke="#000000" stroke-width="1.2"/>
+	<text x="325" y="98.2" fill="#000000" font-family="Arial" font-size="14">conf_id</text>
+</g>
+
+<!-- Entity SSCLAUSE -->
+<g id="entity-SSCLAUSE">
+	<g id="frame-SSCLAUSE">
+		<rect x="456" y="27" width="144" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="456" y="55.0" width="144" height="62" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="456" y="27" width="144" height="90" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="456" y1="55" x2="600" y2="55" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="489" y="47.3" fill="#000000" font-family="Arial Black" font-size="13">SSCLAUSE</text>
+	<text x="464" y="71.2" fill="#000000" font-family="Arial" font-size="14">SSclause_id</text>
+	<line x1="464" y1="74" x2="547" y2="74" stroke="#000000" stroke-width="1.2"/>
+	<text x="464" y="89.2" fill="#000000" font-family="Arial" font-size="14">Sclause_id</text>
+	<text x="464" y="107.2" fill="#000000" font-family="Arial" font-size="14">SSclause_contents</text>
+</g>
+
+<!-- Entity SCLAUSE -->
+<g id="entity-SCLAUSE">
+	<g id="frame-SCLAUSE">
+		<rect x="638" y="144" width="134" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="638" y="172.0" width="134" height="62" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="638" y="144" width="134" height="90" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="638" y1="172" x2="772" y2="172" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="670" y="164.3" fill="#000000" font-family="Arial Black" font-size="13">SCLAUSE</text>
+	<text x="646" y="188.2" fill="#000000" font-family="Arial" font-size="14">Sclause_id</text>
+	<line x1="646" y1="191" x2="719" y2="191" stroke="#000000" stroke-width="1.2"/>
+	<text x="646" y="206.2" fill="#000000" font-family="Arial" font-size="14">clause_id</text>
+	<text x="646" y="224.2" fill="#000000" font-family="Arial" font-size="14">Sclause_contents</text>
+</g>
+
+<!-- Entity RESOLUTION -->
+<g id="entity-RESOLUTION">
+	<g id="frame-RESOLUTION">
+		<rect x="472" y="279" width="112" height="28" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="472" y="307.0" width="112" height="44" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="472" y="279" width="112" height="72" fill="none" stroke="#f46d43" stroke-width="3"/>
+		<line x1="472" y1="307" x2="584" y2="307" stroke="#f46d43" stroke-width="1.5"/>
+	</g>
+	<text x="480" y="299.3" fill="#000000" font-family="Arial Black" font-size="13">RESOLUTION</text>
+	<text x="480" y="323.2" fill="#000000" font-family="Arial" font-size="14">reso_id</text>
+	<line x1="480" y1="326" x2="529" y2="326" stroke="#000000" stroke-width="1.2"/>
+	<text x="480" y="341.2" fill="#000000" font-family="Arial" font-size="14">committee_id</text>
+</g>
+</svg>

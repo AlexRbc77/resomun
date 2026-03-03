@@ -1,0 +1,1 @@
+python3 mark_words.py $1 $2

@@ -1,0 +1,197 @@
+table,
+td,
+tr {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-color: rgb(10, 163, 245);
+    border: 2px green solid;
+}
+
+footer {
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+.clause {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sclause {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ssclause {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.reso_header {
+    width: 80%;
+    float: left;
+    display: block;
+    margin-left: 2%;
+}
+
+.reso_qrcode {
+    width: 15%;
+    display: block;
+    float: right;
+    margin-right: 3%;
+}
+
+.common_header {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    display: block;
+    overflow: auto;
+    font-size: 2em;
+    border: 2px solid black;
+    margin: 20px 20px 20px 0px;
+}
+
+.resolution {
+    font-size: 1.75em;
+    margin-left: 0.63cm;
+}
+
+textarea {
+    font-size: 1.5em;
+}
+
+#resocode {
+    font-size: 15px;
+}
+
+.ammend {
+    border: 2px black solid;
+    margin: 10px;
+    width: auto;
+}
+
+.ammend h2,
+.ammend p,
+.ammend h3,
+.ammend a {
+    margin: 10px;
+}
+
+a button,
+button {
+    border-radius: 20px;
+    background-color: rgb(10, 163, 245);
+    font-weight: bold;
+    color: black;
+}
+
+#login_form {
+    border: 3px gold outset;
+    width: 40%;
+    font-size: 20px;
+    align-content: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#login_form [type=submit],
+form [type=submit] {
+    margin: 10px;
+    font-size: 1em;
+    background-color: rgb(199, 115, 82);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+select {
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+select option {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+select:hover {
+    background-color: rgba(68, 226, 6, 0.404);
+}
+
+.conferences:hover,
+.see_papers:hover,
+.resolutions:hover,
+.committees:hover,
+.self_register:hover {
+    background-color: lightcyan;
+}
+
+.conferences,
+.resolutions,
+.committees,
+.see_papers,
+.delegates {
+    width: 25%;
+    float: left;
+    overflow: auto;
+    align-content: center;
+    align-items: center;
+}
+
+.ammendments {
+    width: 50%;
+    float: left;
+    overflow: auto;
+    align-content: center;
+    align-items: center;
+}
+
+.myresomun,
+.conference_page,
+.commit_page {
+    overflow: auto;
+}
+
+.myresomun form {
+    display: inline-block;
+    align-self: center;
+}
+
+.myresomun h3 {
+    text-align: center;
+}
+
+#reso_off {
+    background-color: darkred;
+}
+
+#reso_on {
+    background-color: green;
+}

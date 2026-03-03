@@ -1,0 +1,52 @@
+1. EVERYTHING AROUND THE USER
+
+1.1 Add Users Manually[DONE]
+1.2 Login page [DONE]
+
+
+2. EVERYTHING AROUND THE CONFERENCE -> myresomun page [made]
+
+2.1 Create conference and roles [DONE] + sign up people for conference and giving them roles (sec gen and deputies) [DONE]
+2.2 Create committees [DONE] and assign chairing roles [DONE]
+2.2.1 Assign delegate roles [DONE]
+2.3 Possibility for officers to look up resolutions (by content, title, main sub, comittee) (first do 3.1 to 3.3) [DONE]
+
+3. EVERYTHING AROUND RESOLUTIONS
+
+3.1 Be able to create resolution [DONE]
+3.2 Be able to edit resolution [Tomorrow] -> use text area, adjust permissions for chairs and officers
+3.2.1 Be able to create, edit and save clauses [DONE]
+3.2.2 Be able to create, edit and save sub clauses [DONE]
+3.2.3 Be able to create, edit and save sub sub clauses [DONE]
+3.2.4 Be able to create, edit and save all of the above but for preamb clauses (as opposed to operative clauses above) [DONE]
+3.3 Be able to sign resolutions in your comittee (qr code + app) [LATER]
+3.4 Chairs fix how many signatures needed for debatable resolutions (change table?) -> sort resolutions by signatures
+3.5 Be able to ammend a resolution (add, delete and change) [DONE]
+
+
+4. ADD THE REST 
+
+4.1 This piece of shit was sponsored by squarespace and raid shadow legends
+4.2 Possibility to generate PDF of resolution
+
+5. Stylesheets cause yeah for now it's FUCKING UGLY
+
+5.1 Template for whole page (After 2.3)
+5.3 PDF generator [DONE]
+5.4 RPI server hat? (After software side is perfect)
+5.5 Email notification system (before rpi hat)
+5.6 Mobile friendly version
+5.7 Password change page (forgot password)
+
+6. Write documentation (after email)
+
+7. Market it (done constantly)
+
+
+
+Make core (working on)
+Make page for recommendations (maybe front page)
+Pre alpha: Test core (make conference, assign roles and edit resolutions)
+Inform CINUP about project
+Alpha: Test parts 1 to 3 (included)
+Beta test: Test all parts

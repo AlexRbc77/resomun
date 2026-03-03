@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>CONFERENCE</span> (
+    <span class='primary'>conf_id</span>,
+    <span class='normal'>conf_title</span>,
+    <span class='normal'>conf_place</span>,
+    <span class='normal'>conf_begin_date</span>,
+    <span class='normal'>conf_end_date</span>,
+    <span class='foreign'>commit_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>COMMITTEE</span> (
+    <span class='primary'>commit_id</span>,
+    <span class='normal'>conf_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>SSCLAUSE</span> (
+    <span class='primary'>SSclause_id</span>,
+    <span class='normal'>Sclause_id</span>,
+    <span class='normal'>SSclause_contents</span>
+  )
+</div>
+<div>
+  <span class='relation'>participated_in</span> (
+    <span class='foreign primary'>user_id</span>,
+    <span class='foreign primary'>conf_id</span>,
+    <span class='foreign primary'>part_id</span>,
+    <span class='foreign primary'>commit_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>DELEGATION</span> (
+    <span class='primary'>del_id</span>,
+    <span class='normal'>country</span>
+  )
+</div>
+<div>
+  <span class='relation'>SCLAUSE</span> (
+    <span class='primary'>Sclause_id</span>,
+    <span class='normal'>clause_id</span>,
+    <span class='normal'>Sclause_contents</span>,
+    <span class='foreign'>SSclause_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>USER</span> (
+    <span class='primary'>user_id</span>,
+    <span class='normal'>firstname</span>,
+    <span class='normal'>lastname</span>,
+    <span class='normal'>age</span>,
+    <span class='normal'>email</span>,
+    <span class='normal'>password</span>
+  )
+</div>
+<div>
+  <span class='relation'>PARTICIPANT</span> (
+    <span class='primary'>part_id</span>,
+    <span class='foreign'>del_id</span>,
+    <span class='foreign'>commit_id</span>,
+    <span class='foreign'>commit_id.1</span>,
+    <span class='foreign'>reso_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>signed</span> (
+    <span class='foreign primary'>part_id</span>,
+    <span class='foreign primary'>reso_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>RESOLUTION</span> (
+    <span class='primary'>reso_id</span>,
+    <span class='normal'>committee_id</span>,
+    <span class='foreign'>clause_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>has_role</span> (
+    <span class='foreign primary'>part_id</span>,
+    <span class='foreign primary'>role_id</span>
+  )
+</div>
+<div>
+  <span class='relation'>ROLE</span> (
+    <span class='primary'>role_id</span>,
+    <span class='normal'>role_title</span>
+  )
+</div>
+<div>
+  <span class='relation'>CLAUSE</span> (
+    <span class='primary'>clause_id</span>,
+    <span class='normal'>reso_id</span>,
+    <span class='normal'>clause_contents</span>,
+    <span class='foreign'>Sclause_id</span>
+  )
+</div>
+</div>
+</body>
+</html>
